@@ -1,0 +1,29 @@
+arquivo = open("distância.txt", "w")
+while True:
+    origem = input("Digite a origem: ")
+    destino = input("Digite o destino: ")
+    km = input("Digite os km: ")
+    arquivo.write(f"{origem},{destino},{km}\n")
+    opcao = input("digite o 'C' se deseja parar o cadastro: ")
+
+    if opcao.upper() == "C":
+        break
+  
+arquivo.close()
+3
+
+
+4
+origem = input("digite a origem: ")
+destino = input("digite o destino: ")
+arquivo = open("distância.txt", "r")
+
+for linha in arquivo:
+    a = linha.split(",")
+    a = linha.split(",")
+    a = linha.split(",")
+
+    if (origem in linha) and (destino in linha):
+        print(f"A distância entre {a[0]} e {a[1]} é {a[2]}")
+    else:
+        print("Não tem no banco de dados")

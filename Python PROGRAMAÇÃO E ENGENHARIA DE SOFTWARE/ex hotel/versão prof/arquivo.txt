@@ -1,0 +1,13 @@
+
+        ====== Hospedagem ======
+        id: 1
+        hóspedes: ['Bob']
+        modelo do veículo: Honda Civic
+        placa do veículo: MFV6686
+        reserva: 1
+        quarto: 202A
+        diarias: 3
+        serviços: ['Lanche - Hamburger SuperFat', 'Barba/Cabelo - Corte Hipster']
+        valor total: 1598.0   
+        ====== =============== ======
+        
